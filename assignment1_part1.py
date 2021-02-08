@@ -1,5 +1,4 @@
 # divide parameter needs to be 2
-
 def listDivide(numbers, divide=2):
     total = 0
     for e in numbers:
@@ -8,7 +7,6 @@ def listDivide(numbers, divide=2):
         if e % divide == 0:
             total = total + 1
     return total
-
 
 class ListDivideException:
     @property
